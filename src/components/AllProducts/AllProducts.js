@@ -14,3 +14,4 @@ function AllProducts (props) {
 }
 
 export default AllProducts
+ 
