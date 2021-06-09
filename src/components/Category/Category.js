@@ -1,6 +1,6 @@
-import React from 'react'
-import CategoryButton from './CategoryButton.js'
-import { namesAndCategories } from '../../data.js'
+import React from 'react' // import React
+import CategoryButton from './CategoryButton.js' // import CategoryButton
+import { namesAndCategories } from '../../data.js' // import namesAndCategories
 
 function Category (props) {
   const { category, onClick } = props
@@ -15,4 +15,4 @@ function Category (props) {
   )
 }
 
-export default Category
+export default Category // Export Category

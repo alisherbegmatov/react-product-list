@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' // import React
 
 function CategoryButton (props) {
   const { name, count, className, onClick } = props
@@ -17,4 +17,4 @@ function CategoryButton (props) {
   )
 }
 
-export default CategoryButton
+export default CategoryButton // Export CategoryButton

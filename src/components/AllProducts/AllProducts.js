@@ -1,6 +1,6 @@
-import React from 'react'
-import data from '../../data'
-import Product from './Product'
+import React from 'react' // import React
+import data from '../../data' // import data
+import Product from './Product' // import Product
 
 function AllProducts (props) {
   const { category } = props
@@ -13,4 +13,4 @@ function AllProducts (props) {
   )
 }
 
-export default AllProducts
+export default AllProducts // export AllProducts

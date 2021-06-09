@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' // import React
 
 function Product (props) {
   const { name, description, price } = props
@@ -11,4 +11,4 @@ function Product (props) {
   )
 }
 
-export default Product
+export default Product // Export Product

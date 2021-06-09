@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' // import React
 
 function Header (props) {
   const { titile } = props
@@ -9,4 +9,4 @@ function Header (props) {
   )
 }
 
-export default Header
+export default Header // Export Header
