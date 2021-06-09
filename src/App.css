@@ -1,0 +1,69 @@
+.App {
+  max-width: 800px;
+  margin: auto;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.Category {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Category span {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  font-size: small;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #504b4b;
+  width: 26px;
+  height: 26px;
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+.Category > button {
+  margin: 5px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #5e9ea0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-right: 50px;
+}
+
+.Category button.selected {
+  background-color: #244f4f;
+}
+
+.AllProducts {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 16px;
+}
+
+.AllProducts > div {
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  padding: 0px 10px 20px 15px;
+}
+
+.AllProducts > div > small {
+  position: absolute;
+  font-size: 10px;
+  margin-top: auto;
+  color: #504b4b;
+  bottom: 10px;
+}
