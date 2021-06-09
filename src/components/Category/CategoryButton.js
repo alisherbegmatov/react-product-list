@@ -18,4 +18,3 @@ function CategoryButton (props) {
 }
 
 export default CategoryButton
- 
